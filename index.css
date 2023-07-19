@@ -5,6 +5,7 @@
 header{
     background: #FFF
 }
+/* Navbar styles */
 nav{
     display: flex;
     justify-content: space-around;
@@ -41,11 +42,11 @@ nav{
 }
 .li{
     color: #3C354F;
-text-align: center;
-font-family: Work Sans;
-font-size: 18px;
-font-weight: 500;
-cursor: pointer;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
 
 }
 .nav-li{
@@ -53,10 +54,10 @@ cursor: pointer;
     margin-top: 5px;
     margin-left: 25px;
 }
-.nav-text{
+.common-text{
     list-style: none;
     color: #3C354F;
-    text-align: center;
+    /* text-align: center; */
     
 }
 
@@ -70,4 +71,63 @@ cursor: pointer;
 }
 .icon{
     margin-left: 10px;
+}
+/* banner section styles */
+h1{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 140px;
+}
+h2{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #F948B2 ;
+    margin-top: 20px; 
+}
+.banner-section-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .banner-images img{
+    max-width: 100%;
+    max-height: 80%;
+}
+.banner-section{
+    background: url(images/Group\ 14.png);
+    background-position: center;
+    width: 901px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.common-text i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.banner-button{
+    display: flex;
+    gap: 10px;
+}
+.banner-button .btn1{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-top: 15px;
+}
+.banner-button .btn2{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    margin-top: 15px;
+}
+.banner-section-text{
+    margin-top: 25px;
 }
