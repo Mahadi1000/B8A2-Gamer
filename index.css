@@ -137,6 +137,7 @@ h2{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     margin-top: 15px;
     cursor: pointer;
+    border: none;
 }
 .banner-button .btn2{
     padding: 21px 40px;
@@ -144,6 +145,7 @@ h2{
     background: #4EC5F7;
     margin-top: 15px;
     cursor: pointer;
+    border: none;
 }
 .banner-section-text{
     margin-top: 25px;
@@ -294,6 +296,200 @@ h2{
     height: 250px;
     position: relative;
     right: 450px;
-    top: 250px;
+    top: 300px;
+
+}
+.Play-gemes-section{
+    display: flex;
+    margin-top: 180px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+/* careers style */
+#careers-section{
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+height: auto;
+width: 100%;
+}
+.image img{
+    width: 100%;
+   height: 700px;
+   
+    
+}
+.careers{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.career-content-container{
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+.career-text{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.career-content p{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 20px; 
+}
+.header-careers{
+   text-align: start;
+   color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    margin-bottom: 30px;
+}
+.career-content-container .common-text{
+    text-align: center;
+    
+}
+.career-content{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    gap: 50px;
+}
+.btn-career{
+    border-radius: 48px;
+    background: #FFF;
+    padding: 20px;
+    gap: 10px;
+    color: #FF42A5;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+/* logo section style */
+.logo-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 30px;
+}
+.btn-logo{
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    cursor: pointer;
+}
+.btn-logo:hover{
+    border: 2px solid;
+    color: #FF42A5;
+    padding: 10px;
+}
+.btn-logo-text{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+/* footer style */
+footer{
+    width: auto;
+    height: 436px;
+    background: #0B0223;
+    margin-top: 150px;
+}
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer-logo img{
+    width: 86.041px;
+    height: 40px;
+    margin-top: 100px;
+}
+.footer-header{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin-top: 100px;
+}
+.footer-header span{
+    color: #FF42A5;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    margin-top: 25px;
+}
+.footer-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+#footer-logo{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+#footer-logo i{
+    
+    margin-left: 50px;
+}
+.condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.condition li{
+    list-style: none;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.copyright{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
 
 }
