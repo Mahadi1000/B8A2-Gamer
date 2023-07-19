@@ -537,10 +537,14 @@ footer{
         
     }
     .btn-logo{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         padding-bottom: 0px;
 
+    }
+    .btn-logo img{
+        height: 60px;
+        width: 80px;
     }
     .footer-section-container {
         flex-direction: column;
@@ -553,5 +557,9 @@ footer{
     .play-instantly {
         margin-left: 0px;
         
+    }
+    .play-instantly img{
+        padding-right: 10px;
+        margin-right: 10px;
     }
     }
